@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="BaseWindow">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Button">
+      <UniqueIdentifier>{c57a7c8a-b6f8-4b7e-8ea4-adf5424e1699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GroupBox">
+      <UniqueIdentifier>{936fe2eb-4d85-4fdd-8cbc-89b31c1e174e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditBox">
+      <UniqueIdentifier>{3f2beeec-d613-4637-ab37-cc8eb436831c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spinner">
+      <UniqueIdentifier>{09ce2e2c-68ed-43cd-b057-04f2d134e014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dropdown">
+      <UniqueIdentifier>{f39f5299-55d5-47f7-8b4b-751d5fae1957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Static">
+      <UniqueIdentifier>{00de6131-88cc-44fb-91e1-c43d4da6c086}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BaseWindow.cpp">
+      <Filter>BaseWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Button.cpp">
+      <Filter>Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GroupBox.cpp">
+      <Filter>GroupBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\EditBox.cpp">
+      <Filter>EditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Static.cpp">
+      <Filter>Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Spinner.cpp">
+      <Filter>Spinner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Dropdown.cpp">
+      <Filter>Dropdown</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\BaseWindow.hpp">
+      <Filter>BaseWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Window.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Button.hpp">
+      <Filter>Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GroupBox.hpp">
+      <Filter>GroupBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\EditBox.hpp">
+      <Filter>EditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Static.hpp">
+      <Filter>Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Spinner.hpp">
+      <Filter>Spinner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Dropdown.hpp">
+      <Filter>Dropdown</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
+  </ItemGroup>
+</Project>
